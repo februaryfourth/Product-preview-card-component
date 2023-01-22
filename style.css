@@ -10,8 +10,8 @@ font-family: 'Montserrat', sans-serif;
     line-height: 0;
 }
 body{
- padding: 2em 1em;
  background-color: hsl(30, 38%, 92%);
+padding: 1em;
 }
 #container{
     width: 100%;
@@ -21,11 +21,11 @@ body{
      justify-content: space-between;
      align-items: stretch;
      border-radius: 0.5em;
-        overflow: hidden;
+     overflow: hidden;
 }
 #productImage{
     width: 100%;
-     background-image: url(/Main/images/image-product-mobile.jpg);
+     background-image: url(/images/image-product-mobile.jpg);
      height: 35vh;
      background-size:cover;
      background-repeat: no-repeat;
@@ -40,7 +40,6 @@ body{
     flex-direction: column;
     padding: 1.5em 1em 1.5em 1em;
     background-color:hsl(0, 0%, 100%) ;
-    border-radius: 0 0 1em 1em;
 }
 .top_title{
     padding: 1em 0 ;
@@ -103,6 +102,9 @@ button img{
 }
 
 @media screen and (min-width:426px) {
+    #body{
+        padding: 100px 0;
+    }
     #container{
         width: 90vw;
         max-width: 800px;
@@ -111,7 +113,7 @@ button img{
         margin: 0 auto;
     }
     #productImage{
-        background-image: url(Main/images/image-product-desktop.jpg);
+        background-image: url(/images/image-product-desktop.jpg);
        height: auto;
         background-size:cover;
         background-repeat:no-repeat;
