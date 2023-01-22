@@ -111,7 +111,7 @@ button img{
         margin: 0 auto;
     }
     #productImage{
-        background-image: url(/Main/images/image-product-desktop.jpg);
+        background-image: url(Main/images/image-product-desktop.jpg);
        height: auto;
         background-size:cover;
         background-repeat:no-repeat;
